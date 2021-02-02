@@ -2,7 +2,7 @@ import React from 'react';
 import styled from '@emotion/styled';
 
 const MensajeError = styled.p`
-    background-color: #B7322C;
+    background-color: #b7322c;
     padding: 1rem;
     color: #FFF;
     font-size: 30px;
@@ -13,9 +13,9 @@ const MensajeError = styled.p`
 `;
 
 const Error = ({mensaje}) => {
-    return ( 
+    return (  
         <MensajeError>{mensaje}</MensajeError>
-     );
+    );
 }
  
 export default Error;
